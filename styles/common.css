@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "TheMix SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("TheMix SemiBold"),
+    url("../fonts/TheMixSemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TheMix Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("TheMix Bold"), url("../fonts/TheMixBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TheMix Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("TheMix Black"), url("../fonts/TheMixBlack.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "TheMix SemiBold";
+}
+
+body {
+  font-size: 1.5rem;
+  background-image: url(../images/slide5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 8rem;
+  font-family: "TheMix Bold";
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 0 35rem;
+}
+
+nav img {
+  width: 9rem;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+nav ul > li a{
+    font-family: "TheMix Bold";
+    text-decoration: none;
+    padding: 1rem 2rem;
+    transition: all 0.2s ease-in;
+}
+
+nav ul > li a:hover{
+    background-color: #ffffff40;
+}
+
+.button {
+  padding: 1rem 2.5rem;
+  border-radius: 5rem;
+  font-family: "TheMix Bold";
+}
+
+.button:hover {
+  cursor: pointer;
+}
