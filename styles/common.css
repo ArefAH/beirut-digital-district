@@ -69,13 +69,18 @@ h4 {
 
 nav {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  padding: 2rem 35rem;
+  padding: 2rem 20rem;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
 }
 
 nav img {
   width: 9rem;
-  margin-right: auto;
 }
 
 nav ul {

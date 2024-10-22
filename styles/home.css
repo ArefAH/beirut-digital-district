@@ -30,6 +30,7 @@ main {
 .foundations {
   display: flex;
   padding: 3rem;
+  height: 50rem
 }
 
 .foundations div {
@@ -54,4 +55,13 @@ main {
   height: auto;
 }
 
-
+.video{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/Shared-Space-at-BDD.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
