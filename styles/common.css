@@ -46,25 +46,28 @@ body {
 
 h1 {
   font-size: 8rem;
-  font-family: "TheMix Extra Bold";
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 4rem;
-  font-family: "TheMix Extra Bold";
-  text-transform: uppercase;
 }
 
 h3 {
   font-size: 3rem;
-  font-family: "TheMix Extra Bold";
-  text-transform: uppercase;
 }
 
 h4 {
   font-size: 2rem;
-  font-family: "TheMix Extra Bold";
+}
+
+h1, h2, h3, h4{
+    font-family: "TheMix Extra Bold";
+    text-transform: uppercase;
+    margin: 2rem 0rem
+}
+
+.text-align{
+    text-align: center;
 }
 
 nav {
