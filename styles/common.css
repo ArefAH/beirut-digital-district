@@ -23,7 +23,8 @@
   font-family: "TheMix Extra Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("TheMix Extra Bold"), url("../fonts/TheMixExtraBold.woff") format("woff");
+  src: local("TheMix Extra Bold"),
+    url("../fonts/TheMixExtraBold.woff") format("woff");
 }
 
 * {
@@ -41,9 +42,6 @@ html {
 
 body {
   font-size: 1.5rem;
-  background-image: url(../images/slide5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 h1 {
@@ -53,23 +51,19 @@ h1 {
 }
 
 h2 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-family: "TheMix Extra Bold";
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 nav {
   display: flex;
   align-items: center;
-  margin: 0 35rem;
+  padding: 2rem 35rem;
 }
 
 nav img {
@@ -83,15 +77,15 @@ nav ul {
   list-style: none;
 }
 
-nav ul > li a{
-    font-family: "TheMix Bold";
-    text-decoration: none;
-    padding: 1rem 2rem;
-    transition: all 0.2s ease-in;
+nav ul > li a {
+  font-family: "TheMix Bold";
+  text-decoration: none;
+  padding: 1rem 2rem;
+  transition: all 0.2s ease-in;
 }
 
-nav ul > li a:hover{
-    background-color: #ffffff40;
+nav ul > li a:hover {
+  background-color: #ffffff40;
 }
 
 .button {
