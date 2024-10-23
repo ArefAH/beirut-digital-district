@@ -2,13 +2,27 @@
     background-color: #0078bd;
 }
 
+.footer-bg{
+    background-color: #202021;
+}
+
 .white-text{
     color: #fff;
 }
 
+.white-text li{
+    color: #fff;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.grey-text{
+    color: #838383;
+}
+
 .grey-text li{
     color: #838383;
-    
+    list-style: none;
 }
 
 .light-green-text{

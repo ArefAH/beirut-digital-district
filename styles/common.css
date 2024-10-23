@@ -69,6 +69,11 @@ h4 {
   padding: 2rem 0rem;
 }
 
+h5{
+  font-family: "TheMix Extra Bold";
+  text-transform: uppercase;
+}
+
 .text-align {
   text-align: center;
 }
@@ -119,4 +124,9 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.divider{
+  width: 100%;
+  border-bottom: solid 1px #131313;
 }
