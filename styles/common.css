@@ -33,6 +33,7 @@
   border: 0;
   box-sizing: border-box;
   color: #131313;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -179,4 +180,16 @@ button:hover {
 .store2 img {
   width: 15rem;
   margin-right: 5rem;
+}
+
+.arrow{
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  filter: invert();
+  background-color: #ff8741;
+  margin: 2rem;
+  padding: 1rem;
 }
