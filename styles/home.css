@@ -11,6 +11,8 @@ main {
   width: 100%;
   height: 100vh;
   background-image: url(../images/slide2.jpg);
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.425);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -56,43 +58,45 @@ main {
   height: auto;
 }
 
-.blue:hover{
-    background-color: #dbe8f0;
+.blue:hover {
+  background-color: #dbe8f0;
 }
 
-.aqua:hover{
-    background-color: #dcecec;
+.aqua:hover {
+  background-color: #dcecec;
 }
 
-.light-green:hover{
-    background-color: #dce8e0;
+.light-green:hover {
+  background-color: #dce8e0;
 }
 
-.green:hover{
-    background-color: #ecefdc;
+.green:hover {
+  background-color: #ecefdc;
 }
 
-.pink:hover{
-    background-color: #f6e2e7;
+.pink:hover {
+  background-color: #f6e2e7;
 }
 
-.video{
-    width: 100%;
-    height: 50vh;
-    background-image: url(../images/Shared-Space-at-BDD.png);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.video {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/Shared-Space-at-BDD.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.425);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.video iframe{
-    margin-bottom: 5rem;
+.video iframe {
+  margin-bottom: 5rem;
 }
 
-.community{
-    width: 100%;
-    height: 90vh;
+.community {
+  width: 100%;
+  height: 90vh;
 }
