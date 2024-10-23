@@ -1,9 +1,56 @@
-main{
-    width: 100%;
-    height: 45vh;
-    background-image: url(../images/blog-posts.png);
-    background-position: top;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-color: #13131362;
+main {
+  width: 100%;
+  height: 45vh;
+  background-image: url(../images/blog-posts.png);
+  background-position: top;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: #13131362;
+}
+
+.trending-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.trending-posts img {
+  width: 42rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.posts {
+  width: 42rem;
+  height: 70rem;
+  margin-bottom: 5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.posts h4,
+.posts p,
+.posts a {
+  padding: 0.5rem 2rem;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: solid 1px #b9b9b9;
+}
+
+.info{
+    height: 25rem;
+}
+
+.info p{
+    margin: 2rem 0;
+}
+
+.info a{
+    text-decoration: none;
+    color: #0078bd;
+    text-transform: uppercase;
 }
