@@ -62,6 +62,10 @@ main {
   padding: 5rem;
 }
 
+.intern-info h5{
+    color: #0078bd;
+}
+
 .intern-info p{
     margin-bottom: 2rem;
 }
@@ -77,4 +81,13 @@ main {
 
 .intern-info button{
     width: 30%;
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial div{
+    padding: 5rem;
 }
