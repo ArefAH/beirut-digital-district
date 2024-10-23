@@ -102,7 +102,8 @@ main {
 }
 .community {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 3rem;
 }
 
 .community img {
@@ -114,7 +115,7 @@ main {
   width: 30rem;
   height: 55rem;
   padding: 5rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -123,9 +124,43 @@ main {
   background-size: cover;
   background-blend-mode: lighten;
   background-color: #ffffffa4;
+  box-shadow: 10px 10px 37px -25px rgba(0,0,0,0.4);
 }
 
 .feature-desc ul > li{
   list-style-image: url(../images/bullet-point.ico);
   margin-bottom: 1.5rem;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.store img{
+  width: 25rem;
+  margin-right: 5rem;
+}
+
+.stats{
+  width: 100%;
+  height: 40vh;
+  padding: 2rem;
+  background-image: url(../images/parallax-light.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.stat-icons{
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 25rem;
+}
+
+.stat-icons span > img{
+  width: 9rem;
+  height: 9rem;
 }
